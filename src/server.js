@@ -15,3 +15,5 @@ app.use('/material', router);
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
 });
+
+export default app;
